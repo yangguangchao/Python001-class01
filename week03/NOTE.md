@@ -7,7 +7,7 @@
 * 5、processes 是要使用的工作进程数目。如果 processes 为 None，则使用 os.cpu_count() 返回的值
 * 6、相同类型的序列也支持比较。 特别地，tuple 和 list 的比较是通过比较对应元素的字典顺序。 这意味着想要比较结果相等，则每个元素比较结果都必须相等，并且两个序列长度必须相同
 * 7、argparse 模块可以让人轻松编写用户友好的命令行接口。程序定义它需要的参数，然后 argparse 将弄清如何从 sys.argv 解析出那些参数。 argparse 模块还会自动生成帮助和使用手册，并在用户给程序传入无效参数时报出错误信息。
-···
+```
 ArgumentParser.add_argument(name or flags...[, action][, nargs][, const][, default][, type][, choices][, required][, help][, metavar][, dest])
 定义单个的命令行参数应当如何解析。每个形参都在下面有它自己更多的描述，长话短说有：
 
@@ -32,4 +32,4 @@ help - 一个此选项作用的简单描述。
 metavar - 在使用方法消息中使用的参数值示例。
 
 dest - 被添加到 parse_args() 所返回对象上的属性名。
-...
+```
