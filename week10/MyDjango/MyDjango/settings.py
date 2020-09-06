@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'smzdm',
         'USER': 'root',
-        'PASSWORD': 'ygc',
+        'PASSWORD': 'xxx', # 请输入您的数据库密码
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
